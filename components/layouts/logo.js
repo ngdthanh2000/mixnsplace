@@ -23,7 +23,7 @@ const Logo = () => {
                         fontWeight={'bold'}
                         ml={3}
                     >
-                        Mixn's Place
+                        Mixn&apos;s Place
                     </Text>
                 </LogoBox>
             </a>

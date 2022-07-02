@@ -1,7 +1,6 @@
-import {Container, Heading, SimpleGrid} from "@chakra-ui/react";
+import {Container, SimpleGrid} from "@chakra-ui/react";
 import Section from "../components/section";
 import {PostGridItem} from "../components/grid-item";
-import chounbangThumb from '../public/images/works/Chounbang.png';
 import Layout from "../components/layouts/article";
 
 const Page = () => {
@@ -13,7 +12,6 @@ const Page = () => {
                     <PostGridItem
                         href={"https://chounbang.com/"}
                         title={"Chounbang"}
-                        //thumbnail={chounbangThumb}
                     >
                         Với đa số nhà đầu tư cá nhân, thị trường chứng khoán năm nay không còn sôi động như năm trước nữa. Tài sản của họ bị “bốc hơi” quá nhanh, nó mang lại nhiều nỗi buồn, nhiều suy nghĩ tiêu cực ảnh hưởng lên không chỉ bản thân họ mà còn đến những thứ…
                     </PostGridItem>
